@@ -5,7 +5,6 @@ def reformat_languages(languages)
     language_hash.each do |language_name, data|
       data.each do |data_name, value|
         hash = {data_name => value}
-        type << type
         another_hash = {:style => [type]}
         merged_hash = hash.merge(another_hash)
         #puts merged_hash
