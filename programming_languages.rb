@@ -1,5 +1,5 @@
 def reformat_languages(languages)
-  reformatted_hash = {}
+  reformatted_hash = []
   merged_hash = nil
   languages.each do |type, language_hash|
     language_hash.each do |language_name, data|
